@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="multi_axim.c" path="D:\Vivado_HLS\ZYBO\multi_axim\multi_axim.c"/>
+  </source>
+  <testbench>
+    <originFiles name="multi_axim_tb.c" path="D:\Vivado_HLS\ZYBO\multi_axim\multi_axim_tb.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

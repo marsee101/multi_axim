@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="multi_axim" xd:componentRef="multi_axim" xd:initiationInterval="29" xd:clockPeriod="10.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:returnValue xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:dataWidth="32" xd:offset="0x10" xd:statusOffset="0x14"/>
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="*(x)" xd:originalName="x" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="31:0" xd:arraySize="10" xd:dataWidth="32" xd:bufferDirection="in"/>
+  <xd:arg xd:name="*(y)" xd:originalName="y" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="31:0" xd:arraySize="10" xd:dataWidth="32" xd:bufferDirection="out"/>
+  <xd:arg xd:name="x" xd:originalName="x" xd:direction="in" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="32" xd:offset="0x18" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="y" xd:originalName="y" xd:direction="in" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="32" xd:offset="0x20" xd:handshakeRef="ap_none"/>
+  <xd:latencyEstimates xd:best-case="28" xd:worst-case="28" xd:average-case="28"/>
+  <xd:resourceEstimates xd:LUT="988" xd:FF="845" xd:BRAM="0" xd:DSP="4"/>
+</xd:acceleratorMap>

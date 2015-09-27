@@ -1,0 +1,8 @@
+verilog xil_defaultlib "AESL_axi_master_gmem.v"
+verilog xil_defaultlib "AESL_axi_slave_AXILiteS.v"
+verilog xil_defaultlib "multi_axim.autotb.v"
+verilog xil_defaultlib "multi_axim.v"
+verilog xil_defaultlib "multi_axim_AXILiteS_s_axi.v"
+verilog xil_defaultlib "multi_axim_gmem_m_axi.v"
+verilog xil_defaultlib "multi_axim_mul_32s_32s_32_6.v"
+

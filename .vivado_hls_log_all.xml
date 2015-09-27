@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog/>
+      <simLog>
+        <logs message="@W [SIM-369] AXI_master port 'y' has a depth of '10'. Insufficient depth may result in simulation mismatch or freeze.&#xD;&#xA;   Build using &quot;D:/HDL/Xilinx/Vivado_HLS/2015.2/msys/bin/g++.exe&quot;&#xD;&#xA;   Compiling apatb_multi_axim.cpp&#xD;&#xA;   Compiling (apcc) multi_axim.c_pre.c.tb.c" projectName="multi_axim" solutionName="solution1" date="2015-09-16T14:30:25.307+0900" type="Warning"/>
+        <logs message="@W [SIM-369] AXI_master port 'x' has a depth of '10'. Insufficient depth may result in simulation mismatch or freeze." projectName="multi_axim" solutionName="solution1" date="2015-09-16T14:30:15.179+0900" type="Warning"/>
+      </simLog>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

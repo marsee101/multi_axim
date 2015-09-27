@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# xsim v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Sep 16 14:30:36 2015
+# Process ID: 6352
+# Log file: D:/Vivado_HLS/ZYBO/multi_axim/solution1/sim/verilog/xsim.log
+# Journal file: D:/Vivado_HLS/ZYBO/multi_axim/solution1/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/multi_axim/xsim_script.tcl
+# xsim {multi_axim} -maxdeltaid 10000 -autoloadwcfg -tclbatch {multi_axim.tcl}
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source multi_axim.tcl
+## add_wave -r /
+## save_wave_config multi_axim.wcfg
+## run all
+$finish called at time : 975400 ps : File "D:/Vivado_HLS/ZYBO/multi_axim/solution1/sim/verilog/multi_axim.autotb.v" Line 478
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Sep 16 14:30:44 2015...

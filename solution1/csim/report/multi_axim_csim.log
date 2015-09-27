@@ -1,0 +1,28 @@
+   Compiling(apcc) ../../../multi_axim_tb.c in debug mode
+@I [LIC-101] Checked out feature [HLS]
+@I [HLS-10] Running 'd:/HDL/Xilinx/Vivado_HLS/2015.2/bin/unwrapped/win64.o/apcc.exe'
+            for user 'ono' on host 'ono-pc' (Windows NT_amd64 version 6.1) on Wed Sep 16 14:27:40 +0900 2015
+            in directory 'D:/Vivado_HLS/ZYBO/multi_axim/solution1/csim/build'
+@I [APCC-3] Tmp directory is apcc_db
+@I [APCC-1] APCC is done.
+@I [LIC-101] Checked in feature [HLS]
+   Compiling(apcc) ../../../multi_axim.c in debug mode
+@I [LIC-101] Checked out feature [HLS]
+@I [HLS-10] Running 'd:/HDL/Xilinx/Vivado_HLS/2015.2/bin/unwrapped/win64.o/apcc.exe'
+            for user 'ono' on host 'ono-pc' (Windows NT_amd64 version 6.1) on Wed Sep 16 14:27:43 +0900 2015
+            in directory 'D:/Vivado_HLS/ZYBO/multi_axim/solution1/csim/build'
+@I [APCC-3] Tmp directory is apcc_db
+@I [APCC-1] APCC is done.
+@I [LIC-101] Checked in feature [HLS]
+   Generating csim.exe
+y[0] = 0
+y[1] = 2
+y[2] = 6
+y[3] = 12
+y[4] = 20
+y[5] = 30
+y[6] = 42
+y[7] = 56
+y[8] = 72
+y[9] = 90
+@I [SIM-1] CSim done with 0 errors.
